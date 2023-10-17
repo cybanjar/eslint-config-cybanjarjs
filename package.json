@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cybanjarjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config for Javascript",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,26 @@
     "test:lint": "bash ./script/lint.sh",
     "test:fix": "bash ./script/fix.sh"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybanjar/eslint-config-cybanjarjs.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": {
     "name": "Syamsul Amin",
     "email": "cybanjar@gmail.com"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybanjar/eslint-config-cybanjarjs/issues"
+  },
+  "homepage": "https://github.com/cybanjar/eslint-config-cybanjarjs#readme",
   "devDependencies": {
     "eslint": "^8.51.0",
     "eslint-config-standard": "^17.1.0",
