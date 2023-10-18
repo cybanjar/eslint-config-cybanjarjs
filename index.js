@@ -6,7 +6,7 @@ module.exports = {
     'plugin:varspacing/recommended',
   ],
   plugins      : ['unicorn', 'varspacing'],
-  env          : { es6: true },
+  env          : { es2022: true },
   parser       : 'vue-eslint-parser',
   parserOptions: { sourceType: 'module' },
   rules        : {
