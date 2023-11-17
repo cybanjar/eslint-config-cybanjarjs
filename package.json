@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cybanjarjs",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Eslint config for Javascript",
   "main": "index.js",
   "scripts": {
